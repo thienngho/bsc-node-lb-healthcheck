@@ -8,7 +8,7 @@ Supported networks:
 ## Installation
 
 ```
-npm install -g eth-node-lb-healthcheck
+npm install -g  @exiliontech/eth-node-lb-healthcheck
 ```
 
 ## Run
@@ -28,7 +28,7 @@ Configuration parameters (set as ENV variables):
 
 Example for mainnet:
 ```
-RPC_HOST=127.0.0.1 NETWORK=homestead PORT=50336 eth-node-lb-healthcheck
+RPC_HOST=127.0.0.1 NETWORK=homestead PORT=50336 eth-node-healthcheck
 ```
 
 Make sure the process is detached from the terminal. Make sure the port is open for incoming connections.
