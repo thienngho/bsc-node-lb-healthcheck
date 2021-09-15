@@ -1,6 +1,6 @@
-# eth-node-lb-healthcheck
+# bsc-node-lb-healthcheck
 
-Little http node.js server to run along the ethereum node. Node needs to have JSONRPC enabled. Returns **500** if the last block number on the local node is off by 3 or more blocks from the last block number from Infura node. Otherwise returns **200**.
+Little http node.js server to run along the bsc node. Node needs to have JSONRPC enabled. Returns **500** if the last block number on the local node is off by 3 or more blocks from the last block number from Infura node. Otherwise returns **200**.
 
 Supported networks:
   - homestead
@@ -12,7 +12,7 @@ Supported networks:
 ## Installation
 
 ```
-npm install -g  @exiliontech/eth-node-lb-healthcheck
+npm install -g @thienngho/bsc-node-lb-healthcheck
 ```
 
 ## Run
